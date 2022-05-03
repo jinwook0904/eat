@@ -33,3 +33,35 @@ body {
   position: relative;
   width: 100%;
 }
+
+/************** footer 영역 **************/
+footer p:nth-of-type(3){
+    margin-top: 12px;
+}
+footer{
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    /* width: 250px; */
+
+    /* 푸터 하단 고정을 위한 설정 */
+    height: 60px;
+    position: absolute;
+    /* left: 50%; */
+    /* margin-left: -125px; */
+    left: 0px; right: 0px;
+    bottom: 0px;
+}
+
+html, body{
+    /* 푸터 하단 고정을 위한 설정 */
+    height: 100%;
+}
+div.wrap{
+    /* 푸터 하단 고정을 위한 설정 */
+    position: relative;
+    min-height: 100%;
+    /* footer의 높이+알파 만큼 하단 패딩을 준다. */
+    padding-bottom: 80px;
+}
