@@ -58,7 +58,7 @@ html, body{
     /* 푸터 하단 고정을 위한 설정 */
     height: 100%;
 }
-div.wrap{
+div.wrapper{
     /* 푸터 하단 고정을 위한 설정 */
     position: relative;
     min-height: 100%;
